@@ -1,10 +1,10 @@
-/* // Variables con let
+// Variables con let
 
 let producto = 'Audifonos Gamer'; // Iniciar variable y asignarle valor
 
 let disponible; // iniciamos la variable pero sin valor.
 
-// producto = true; // Reasignando el valor de la variable
+producto = true; // Reasignando el valor de la variable
 
 disponible = true;
 
@@ -15,11 +15,11 @@ let producto1 = 'Computadora',
 
 
 // let 1disponible;
-let disponible_;
+// let disponible_;
 
-// Estilos para las variables
+// // Estilos para las variables con "let"
 let nombre_producto = 'Monitor HD'; // underscore
 let nombreProducto = 'Monitor HD'; // Camelcase
 let NombreProducto = 'Monitor HD'; // Pascal Case
-let nombreproducto = 'MonitorHD'; 
- */
+let nombreproducto = 'MonitorHD'; //LowerCase
+ 

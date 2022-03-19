@@ -1,4 +1,4 @@
-/* // Variables con let
+// Variables con let
 
 const producto = 'Audifonos Gamer'; // Iniciar variable y asignarle valor
 
@@ -19,7 +19,6 @@ const disponible_ = true;
 
 // Estilos para las variables
 const nombre_producto = 'Monitor HD'; // underscore
-const nombreProducto = 'Monitor HD'; // Camelcase
+const nombreProducto = 'Monitor HD'; // CamelCase
 const NombreProducto = 'Monitor HD'; // Pascal Case
-const nombreproducto = 'MonitorHD'; 
- */
+const nombreproducto = 'MonitorHD'; //LowerCase
