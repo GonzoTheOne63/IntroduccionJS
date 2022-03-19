@@ -10,8 +10,8 @@ const disponible = true; // iniciamos la variable pero sin valor.
 
 
 const producto1 = 'Computadora', 
-    disponible1 = true,
-    categoria = 'Computadoras';
+      disponible1 = true,
+      categoria = 'Computadoras';
 
 
 // const 1disponible;
