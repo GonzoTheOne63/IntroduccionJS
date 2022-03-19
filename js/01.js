@@ -9,7 +9,7 @@ var disponible; // iniciamos la variable pero sin valor.
 
 // JScript es un lenguaje dinámico
 
-// producto = true; // Reasignando el valor de la variable
+producto = true; // Reasignando el valor de la variable
 
 disponible = true;
 
@@ -22,11 +22,11 @@ var producto1 = 'Computadora',
 // var 1disponible; // no es valido al inicio un número
 var disponible_;
 
-// Estilos para las variables
+/* // Estilos para las variables
 var nombre_producto = 'Monitor HD'; // underscore
 var nombreProducto = 'Monitor HD'; // CamelCase
 var NombreProducto = 'Monitor HD'; // PascalCase para definir clase 
 var nombreproducto = 'MonitorHD'; // LowerCase
+ */ /* A todo esto se le conoce como CaseSensitive */
 
-
-console.log(producto);
+console.log(producto); /* Devuelve resultado al navegador */
