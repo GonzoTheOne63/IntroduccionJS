@@ -1,4 +1,4 @@
-/* const producto = {
+const producto = {
     nombreProducto : "Monitor 20 Pulgadas",
     precio: 300,
     disponible: true
@@ -9,7 +9,9 @@ const medidas = {
     medida: '1m'
 }
 
-const nuevoProducto = { ...producto, ...medidas };
+
+// RestOperator o SpreadOperator
+const nuevoProducto = {...producto, ...medidas};
 
 console.log(producto);
-console.log(nuevoProducto); */
+console.log(nuevoProducto);
