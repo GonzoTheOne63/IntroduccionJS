@@ -1,4 +1,4 @@
-// Variables con let
+// Variables con Const
 
 const producto = 'Audifonos Gamer'; // Iniciar variable y asignarle valor
 
