@@ -14,6 +14,9 @@ const resultado = sumar(2, 3);
   function agregarCarrito(precio) {
     return total += precio;
   }
+  function calcularImpuesto(total) {
+    return 1.15 * total;  // Asi calcula total de compra MÁS impuesos incluido
+  }
 
   total = agregarCarrito(200);
   total = agregarCarrito(600);
@@ -21,3 +24,8 @@ const resultado = sumar(2, 3);
   total = agregarCarrito(400);
  
   console.log(total);
+
+  const totalApagar = calcularImpuesto(total);
+
+  /* console.log(totalApagar); // Asi nos devuelve el TOTAL + IMPUESTO */
+  console.log(`El total a pagar con impuestos es de: $${totalApagar}`);
