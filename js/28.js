@@ -1,14 +1,14 @@
-// // Classes
+// Classes
 
 
-// class Producto {
-//     constructor(nombre, precio) {
-//         this.nombre = nombre;
-//         this.precio = precio;
-//     }
+/* class Producto {
+   constructor(nombre, precio) {
+        this.nombre = nombre;
+        this.precio = precio;
+}
 
-//     formatearProducto() {
-//         return `El Producto ${this.nombre} tiene un precio de: $ ${this.precio}`;
+    formatearProducto() {
+        return `El Producto ${this.nombre} tiene un precio de: $ ${this.precio}`; */
 //     }
 // }
 
