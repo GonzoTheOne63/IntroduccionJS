@@ -6,7 +6,7 @@ const producto = {
     precio: 500
 }
 
-// Object Constructor
+// Object Constructor es más dinámico
 function Producto(nombre, precio, marca) {
   // El nombre de la "clase" (contenedor) debe estar con la 1er letra en mayúsculas
   this.nombre = nombre;
@@ -19,7 +19,7 @@ function Producto(nombre, precio, marca) {
 //     return `El Producto ${this.nombre} tiene un precio de: $ ${this.precio}`;
 // }
 
-const producto2 = new Producto('Monitor Curvo de 49 Pulgadas', 800, 'SONY');
+const producto2 = new Producto('Monitor Curvo de 49" ', 800, 'SONY'); /// Instancia de producto
 const producto3 = new Producto('Laptop', 300, 'SONY');
 const producto4 = new Producto('Celular', 400, 'MK');
 const producto5 = new Producto('Laptop', 300, 'SONK');
