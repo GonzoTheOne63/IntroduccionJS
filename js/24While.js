@@ -1,4 +1,4 @@
-// While Loop evalua mientras la condición sea verdadera
+// While Loop evalua MIENTRAS la condición sea verdadera
 
 /* let i = 1;  // 'i' = ÍNDICE Comienza en 0, busca menor a 10 y va a incrementar de 1 a 1
 while(i <= 100) { // Primero evalua la CONDICIÓN si es verdadera la ejecuta
