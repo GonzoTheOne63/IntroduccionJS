@@ -1,24 +1,24 @@
-// {
-//     "empleados" : [
-//         {
-//             "id" : 1,
-//             "nombre": "Juan",
-//             "puesto": "Programador Web"
-//         },
-//         {
-//             "id" : 2,
-//             "nombre": "Pedro",
-//             "puesto": "UX / UI"
-//         },
-//         {
-//             "id" : 3,
-//             "nombre": "Andrea",
-//             "puesto": "MKT"
-//         },
-//         {
-//             "id" : 4,
-//             "nombre": "Karen",
-//             "puesto": "Servidores"
-//         }
-//     ]
-// }
+{
+    "empleados" : [  
+        {
+            "id" : 1,
+            "nombre": "Goin",
+            "puesto": "Programador Web"
+        },
+        {
+            "id" : 2,
+            "nombre": "Magie",
+            "puesto": "UX / UI"
+        },
+        {
+            "id" : 3,
+            "nombre": "Vivian",
+            "puesto": "MKT"
+        },
+        {
+            "id" : 4,
+            "nombre": "Abigail",
+            "puesto": "Servidores"
+        }
+    ]
+}
