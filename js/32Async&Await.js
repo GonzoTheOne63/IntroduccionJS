@@ -1,15 +1,27 @@
 // // Async / await
 
-// function descargarNuevosClientes() {
-//     return new Promise( resolve => {
-//         console.log('Descargando clientes... espere...');
+function descargarNuevosClientes() {
+    return new Promise( resolve => {
+        console.log('Descargando clientes... espere...');
 
-//         setTimeout( () => {
-//             resolve('Los Clientes fueron Descargados');
-//         }, 5000 );
-//     });
-// }
+        setTimeout( () => {
+            resolve('Los Clientes fueron Descargados');
+        }, 6000 );
+    });
+}
 
+async function app() {
+  try{
+    const resultado = await descargarNuevosClientes();
+    console.log(resultado);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+app();
+
+console.log('Este código no se bloquea');
 // function descargarUltimosPedidos() {
 //     return new Promise( resolve => {
 //         console.log('Descargando pedidos... espere...');
